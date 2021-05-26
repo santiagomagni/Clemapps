@@ -8,7 +8,7 @@
     <meta name="keywords" content="Clemapps, menu digital, carta digital, carta restaurante, codigo qr">
     <meta name="description" content="ofrecemos cartas y folletos con acceso mediante codigo QR o links">
     <title>Clemapps/Precios</title>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/estilos.css">
     <!--font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
@@ -23,27 +23,49 @@
     <header>
         <a href="index.html"><img src="./img/logos/logo_512x512.png" alt="Clemapps"></a>
     </header>
-    <nav>
-        <ul>
-            <li class="nav"><a href="index.html">Home</a></li>
-            <li class="nav"><a href="equipo.html">equipo</a></li>
-            <li class="nav"><a href="trabajos.html">trabajos</a></li>
-            <li class="nav"><a href="precios.html">precios</a></li>
-            <li class="nav"><a href="contacto.html">contacto</a></li>
-        </ul>
-    </nav>
-    <hr>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid bg-dark">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="equipo.html">Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trabajos.html">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <main class="cuerpo">
         <article>
             <h2>Plan Basico</h2>
             <ul>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
+                <li>1 Actualizacion mensual</li>
+                <li>2 Afiches con codigo QR</li>
+                <li>5 Carteles tamaño A4</li>
+                <li>100 Carteles indicadores de gondola</li>
+                <li>100 Tarjetas Con codigo QR</li>
+                <li>Codigo QR basico</li>
+                <li>Dominio y Hosting compartido</li>
+               
             </ul>
             <button type="submit" value="Plan basico">Elegir Plan Basico</button>
         </article>
@@ -51,19 +73,16 @@
         <article>
             <h2>Plan Full</h2>
             <ul>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
-                <li>lorem</li>
+                <li>Actualizacion sin limites</li>
+                <li>2 afiches Con codigo QR</li>
+                <li>5 Carteles tamaño A4</li>
+                <li>100 Carteles indicadores de gondola</li>
+                <li>100 Tarjetas con codigo QR</li>
+                <li>Codigo QR avanzado</li>
+                <li>Informe mensaual de uso del QR</li>
+                <li>Dominio y hosting propio</li>
+                <li>Atencion 24/7</li>
+                
             </ul>
             <button type="submit" value="Plan full">Elegir Plan Full</button>
         </article>

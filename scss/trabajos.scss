@@ -1,0 +1,51 @@
+@import"variables";
+
+@mixin fuentesB ($fondo, $color){
+    background-color: $fondo;
+    color: $color;
+}
+@mixin fuentesW ($fondo){
+    background-color: $fondo;
+}
+#catalogo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    gap: 15px;
+    
+    h3 {
+        margin-top: 15px;
+      }
+    img {
+        margin-top: 15px;
+        width: auto;
+        height: 200px;
+      }
+    .fila1 {
+        grid-column: 1/2;
+      }
+    .fila2 {
+        grid-column: 2/3;
+      } 
+    #black{
+        @include fuentesB(rgba(0, 0, 0, 0.685),white );
+    } 
+    #black1 {
+        @extend #black;
+      }
+    #black2{
+        @extend #black;
+      }
+    #white{
+        @include fuentesW(white);
+    }
+    #white1{
+        @include fuentesW(white);
+    }
+    #white2{
+        @include fuentesW(white);
+    }
+  }

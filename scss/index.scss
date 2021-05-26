@@ -1,0 +1,204 @@
+#quienesSomos {
+    background-color: rgba(37, 122, 202, 0.685);
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+
+    h2 {
+        animation-duration: 2s;
+        animation-name: aparecer;
+        text-align: start;
+        margin-left: 80px;
+        padding-top: 20px;
+        width: 70%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        word-spacing: 1px;
+        text-decoration: underline;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    p {
+        width: 90%;
+        margin-left: 50px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+        word-spacing: 1px;
+        color: white;
+    }
+
+
+}
+
+
+.conteiner {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 90%;
+
+    #mensaje1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 15px;
+        box-shadow: 5px 10px rgba(75, 75, 75, 0.281);
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+
+        p {
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        h4 {
+            text-align: end;
+        }
+
+    }
+
+    #mensaje2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 15px;
+        box-shadow: 5px 10px rgba(75, 75, 75, 0.281);
+        background-color: white;
+        align-items: center;
+
+        p {
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        h4 {
+            text-align: end;
+        }
+    }
+
+    #mensaje3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 15px;
+        box-shadow: 5px 10px rgba(75, 75, 75, 0.281);
+        background-color: white;
+        align-items: center;
+
+        p {
+            display: grid;
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        h4 {
+            text-align: end;
+        }
+    }
+
+    .carousel-control-prev-icon {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .carousel-control-next-icon {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+        opacity: 0.7;
+    }
+}
+
+@media only screen and (max-width:814px) {
+
+    .conteiner {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .conteiner #mensaje1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 15px;
+        box-shadow: 5px 10px rgba(75, 75, 75, 0.281);
+        background-color: rgb(255, 255, 255);
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .conteiner #mensaje2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border: 2px solid black;
+        padding: 15px;
+        box-shadow: 5px 10px rgba(75, 75, 75, 0.281);
+        background-color: white;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #quienesSomos p {
+        width: 90%;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        font-size: 17px;
+        word-spacing: 1px;
+        color: white;
+    }
+
+
+}
+
+@media only screen and (max-width:480px) {
+
+
+    .conteiner {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}

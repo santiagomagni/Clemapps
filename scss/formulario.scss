@@ -1,0 +1,33 @@
+.formulario {
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: $colorPrincipal;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    background-color: rgb(31, 30, 30);
+    border-radius: 20px;
+}
+
+@media only screen and (max-width:814px) {
+
+    .formulario {
+
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+
+    .formulario {
+
+        width: 100%;
+        margin-left: 0;
+    }
+}

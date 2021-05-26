@@ -8,7 +8,7 @@
     <meta name="keywords" content="Clemapps, menu digital, carta digital, carta restaurante, codigo qr">
     <meta name="description" content="ofrecemos cartas y folletos con acceso mediante codigo QR o links">
     <title>Clemapps/Inicio</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <!--font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
@@ -24,25 +24,50 @@
     <header>
         <a href="index.html"><img src="./img/logos/logo_512x512.png" alt="Clemapps"></a>
     </header>
-    <nav>
-        <ul>
-            <li class="nav"><a href="index.html">Home</a></li>
-            <li class="nav"><a href="equipo.html">equipo</a></li>
-            <li class="nav"><a href="trabajos.html">trabajos</a></li>
-            <li class="nav"><a href="precios.html">precios</a></li>
-            <li class="nav"><a href="contacto.html">contacto</a></li>
-        </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid bg-dark">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipo.html">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trabajos.html">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="precios.html">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
-    <hr>
+
     <section id="quienesSomos">
-        <h2>Lorem, ipsum dolor.</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur quo adipisci quibusdam. Nobis tempora iure
-            itaque, delectus at, officiis officia, in amet odit blanditiis nulla laboriosam nostrum ipsam ut magnam
-            tenetur? Cupiditate, autem aut officiis at sequi eligendi et blanditiis odio, saepe perspiciatis dolorem
-            adipisci unde cum consequuntur enim asperiores sunt. Repudiandae ea aut quo totam ut ab autem asperiores,
-            eveniet assumenda odio mollitia commodi provident ipsa neque quos laudantium, harum aliquid consequuntur sit
-            non maxime nam impedit illum? Consectetur obcaecati quaerat rem sed saepe! Tempore, voluptas officiis
-            libero, dignissimos corporis saepe nam eligendi aperiam culpa, ipsum voluptate. Vitae, quia.</p>
+        <h2>Hola!</h2>
+        <p>Bienvenidos a CLEMAPPS, Nos encanta que te intereses en nosotros!! <br>
+            Necesitas soluciones de folleteria online para tu comercio?? Llegaste al lugar indicado, nosotros nos
+            dedicamos al diseño, maquetado y desarrollo de folleteria mediante codigo QR, para que tu negocio se adapte
+            a la nueva tendencia de los catalogos digitales.
+            Nuestra oferta te ubicara en las nuevas tendencias, para que puedas operar de forma mas segura ante la
+            situacion mundial.
+        </p>
     </section>
     <!--Comentarios y puntuaciones-->
     <div class="conteiner">
@@ -52,20 +77,16 @@
                     <section id="mensaje1">
                         <img class="foto" src="./img/fotoPerfilComentarios.png" alt="foto de perfil">
                         <h3>"Genial!"</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis perspiciatis
-                            dolorem,
-                            consequuntur asperiores dicta aperiam expedita animi! Illum, vero.</p>
+                        <p>Lo contratamos para folleteria de supermercados y resulto fantastico!</p>
                         <h4>Calificacion:</h4>
                         <img class="puntuacion" src="./img/puntuacion.png" alt="puntacion">
                     </section>
                 </div>
-                <div class="carousel-item">    
+                <div class="carousel-item">
                     <section id="mensaje2">
                         <img class="foto" src="./img/fotoPerfilComentarios.png" alt="foto de perfil">
                         <h3>"10 puntos"</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis perspiciatis
-                            dolorem,
-                            consequuntur asperiores dicta aperiam expedita animi! Illum, vero.</p>
+                        <p>Una solucion genial para mi restorant!</p>
                         <h4>Calificacion:</h4>
                         <img class="puntuacion" src="./img/puntuacion.png" alt="puntacion">
                     </section>
@@ -74,9 +95,7 @@
                     <section id="mensaje3">
                         <img class="foto" src="./img/fotoPerfilComentarios.png" alt="foto de perfil">
                         <h3>"super"</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis perspiciatis
-                            dolorem,
-                            consequuntur asperiores dicta aperiam expedita animi! Illum, vero.</p>
+                        <p>Una excelente solucion para mi negocio.</p>
                         <h4>Calificacion:</h4>
                         <img class="puntuacion" src="./img/puntuacion.png" alt="puntacion">
                     </section>

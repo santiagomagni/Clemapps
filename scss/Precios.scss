@@ -1,0 +1,44 @@
+.cuerpo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    margin-bottom: 100px;
+
+    ul {
+        height: 300px;
+        width: 80%;
+        background-color: rgb(36, 36, 36);
+        list-style: circle;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid black;
+        text-align: start;
+        color: whitesmoke;
+     }
+  
+    h2 {
+        font-family: 'Oswald', sans-serif;font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        word-spacing: 1px;
+        text-decoration: underline;
+        color: white;
+        margin-top: 80px;
+     }
+}
+@media only screen and (max-width:600px){
+    .cuerpo {
+        ul {
+            height: 500px;
+            width: 80%;
+            background-color: rgb(36, 36, 36);
+            list-style: circle;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            text-align: start;
+            color: whitesmoke;
+         }
+      
+       
+    }
+}
