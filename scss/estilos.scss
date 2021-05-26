@@ -1,3 +1,7 @@
+.body {
+    background-color: rgb(43, 42, 42);
+}
+
 @import"index";
 @import "Encabezado";
 @import"footer";
@@ -5,6 +9,3 @@
 @import"equipo";
 @import"trabajos";
 @import"formulario";
-.body {
-    background-color: rgb(43, 42, 42);
-}
